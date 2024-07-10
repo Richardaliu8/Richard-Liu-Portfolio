@@ -1,0 +1,1540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Richard Liu - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/ProfilePic.png" alt="Joaquin Carretero" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Joaquin Carretero">Joaquin Carretero</h1>
+
+          <p class="title">Data Analyst</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richardandersonliu@gmail.com" class="contact-link">richardandersonliu@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+1 (628) 276-3337</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+
+              <a href="https://www.linkedin.com/in/richard-liu-56407921a/" class="contact-link">linkedin.com/in/richard-liu-56407921a/</a>
+
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">GitHub</p>
+
+              <a href="https://github.com/Richardaliu8" class="contact-link">github.com/Richardaliu8/</a>
+
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>San Francisco, CA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/richard-liu-56407921a/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>          
+
+          <li class="social-item">
+            <a href="https://github.com/Richardaliu8" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hi, I'm Richard Liu! I'm a passionate data analyst and business analytics professional with a Master of Science 
+            in Business Analytics from UC Davis. I specialize in predictive modeling, data visualization, and machine learning. 
+            Throughout my academic and professional journey, I have honed my skills in various technologies, including Python, 
+            R, SQL, Tableau, and Power BI.
+
+            For example, For example, I've worked on optimizing a real estate recommendation engine that enhances buyer-seller
+            matching efficiency using machine learning algorithms. I have also developed interactive dashboards to visualize 
+            key performance metrics, enabling data-driven decision-making for stakeholders. 
+            
+          </p>
+          I'm passionate about using my skills to build innovative solutions and help organizations achieve their goals. In
+          my free time, you can often find me exploring new data analytics techniques or working on projects like optimizing
+          rental car pricing and analyzing global climate data. I love bringing insights to life through data, and I code 
+          every day for fun, as you can see in my GitHub chart below.
+          <p>
+          <!-- <a href="https://github.com/miniquinox" style="text-decoration: none; color: inherit;">
+              <div class="github-chart-card" style="background-color: white; border-radius: 10px; padding: 10px; margin: 20px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                  <img src="http://ghchart.rshah.org/miniquinox" alt="Miniquinox's Github chart" style="width: 100%; border-radius: 8px;">
+              </div>
+          </a> --> 
+
+          <li class="project-item  active" data-filter-item data-category="Live GitHub Timeline">
+            <a href="https://github.com/Richardaliu8">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <div class="github-chart-card" style="background-color: white; border-radius: 10px; padding: 10px; margin: 0px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Richardaliu8&theme=default" alt="Richard's Github chart" style="width: 100%; border-radius: 8px;">
+                </div>
+              </figure>
+
+            </a>
+          </li>
+
+          </p>
+        </section>
+
+        
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Building Augmented Reality Apps</h4>
+
+                <p class="service-item-text">
+                  Currently using Flutter and ARKit to build an Augmented Reality Museum App that encourages art lovers to use
+                  technology in public spaces and experience art in new ways. My startup has been submitted to YCombinator.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Developing Recommendation Model</h4>
+
+                <p class="service-item-text">
+                  Using Python, Selenium, and several APIs, I created a framework that uses the famous Black Scholes algorith
+                  and adds Machine Learning training to predict the price of a call the next morning when the market opens.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Exam Ai Platform</h4>
+
+                <p class="service-item-text">
+                  I am making a platform that will allow professors to grade students hand-written exams/quizzes instantly
+                  by using Computer Vision libraries to translate handwriting into text, and feeding such text 
+                  to an API based GPT4-Turbo model that will grade submissions based on the professor's criteria.
+                  Such platform will have data analytics to help the professor know where students lacked the most.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  As a Professional Photographer, I shoot with a Sony A7IV. My lens of choice is a Sigma 50mm f/1.4
+                  which i use mostly for portraits! At Meta, I worked in the Camera Research organization making 
+                  proprietary imaging algorithms to optimize the best Field of View for a small sized camera that 
+                  later on was implemented in the 2023 RayBan Stories.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-5.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Shobhit S.<br>System Validation Engineer @ Meta</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    <i>"I worked alongside Joaquin at Meta, where we performed System Validation of the Ray-Ban Smart Glasses together. 
+                      Joaquin is an automation whiz - he can take any manual process and develop scripts to 
+                      optimize it in no time. He generously shares his expertise and constantly looks for ways 
+                      to level up our team's technical capabilities. It was always exciting to collaborate 
+                      with Joaquin on projects."</i>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Dhana N.<br>Manager @ Signify Phillips</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    <i>"I had the pleasure of managing Joaquin at Signify Phillips. 
+                      He is highly skilled in test automation and rapidly developed frameworks 
+                      that accelerated our processes. Joaquin has an impressive ability to quickly
+                       learn and master new technologies. He delivered high-quality work, and I 
+                       hope to collaborate with him again in the future."</i>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Erick Hyde" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Erick H.<br>Engineer Manager @ Meta</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    <i>"Joaquin is an exceptionally talented software engineer. 
+                    At Meta, he led critical automation initiatives that improved our testing 
+                    workflows and boosted efficiency. Joaquin is passionate about creating 
+                    technological solutions that benefit the organization, and his drive to 
+                    innovate made him a true asset to the team."</i>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Kelli S.<br>Recruiter @ Aditi Consulting
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    <i>"As the recruiter who helped Joaquin secure his role at Meta, 
+                      I saw firsthand what an asset he is. His depth of knowledge and passion for 
+                      automation and emerging tech is impressive for someone so early in his career. 
+                      Joaquin has a creative vision for how technology can solve problems and the 
+                      engineering talent to make it happen. He raised the bar for our team."</i>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2022</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50470.029826107435!2d-122.47879950209816!3d37.75776068869344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1719962588493!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Previous Experience</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/Meta.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/Signify.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/Halliburton.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/Zillow.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/AspenAvionics.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+  
+      </article>
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of California, Davis</h4>
+
+              <span>2023 — 2024</span>
+
+              <p class="timeline-text">
+                Highlighted Coursework: Data Management, Advanced Statistics, Big Data, 
+                Cloud Computing, Machine Learning 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of California, Davis</h4>
+
+              <span>2019 — 2023</span>
+
+              <p class="timeline-text">
+                Highlighted Coursework: Finance, Economics, Business Communication, Statistics, World of Business
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Analyst& Project Manager @ Acorn Analytics</h4>
+
+              <span>September 2023 — June 2024</span>
+
+              <p class="timeline-text">
+                <i>Optimized a read estate market recommendation system.</i>
+              </p>
+              <p class="timeline-text">
+                •	Engineered a real estate recommendation engine using Python, boosting 
+                buyer-seller matching efficiency by 8%. Applied linear regression and machine
+                 learning algorithms to refine and enhance the underlying predictive models, 
+                 optimizing recommendation accuracy.
+              </p>
+              <p class="timeline-text">
+                •	Researched and applied content-based and collaborative filtering to 
+                enhance recommendation systems. Utilized statistical modeling to refine
+                 data structures, boosting analytical accuracy and problem-solving capabilities.
+              </p>
+              <p class="timeline-text">
+                •	Crafted and deployed interactive Power BI and Tableau dashboards to 
+                visualize key performance metrics, enabling enhanced data-driven decision-making
+                 and optimizing stakeholder communication.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Food Delivery Driver	@ Doordash</h4>
+
+              <span>November 2022 — June 2023</span>
+
+              <p class="timeline-text">
+                <i>Food Delivery Service in the Sacramento/Davis area.</i>
+              </p>
+              <p class="timeline-text">
+                •	In my role as a Food Delivery Driver for DoorDash, I specialize 
+                in the prompt and secure delivery of meals from a variety of local 
+                establishments in the Sacramento/Davis area. I prioritize customer 
+                satisfaction and adhere to stringent safety standards to ensure the 
+                integrity of each delivery. 
+              </p>
+              <p class="timeline-text">
+                •	My responsibilities include strategic route 
+                planning and effective time management to maximize efficiency during peak 
+                delivery hours.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Treasurer	@ Taiwanese Student Association at UC Davis</h4>
+
+              <span>March 2022 — May 2023</span>
+
+              <p class="timeline-text">
+                <i>Efficiently managed financial operations, strategic budget planning, and sponsorship acquisition.</i>
+              </p>
+              <p class="timeline-text">
+                •	Demonstrated financial management proficiency by overseeing transactions across 
+                two bank accounts, leveraging critical banking and accounting skills.
+              </p>
+              <p class="timeline-text">
+                •	Addressed monetary concerns and provided strategic guidance to the club regarding 
+                budgetary planning and expenditure optimization.
+              </p>
+              <p class="timeline-text">
+                •	Proactively secured sponsorships to facilitate funding for the organization's 
+                biweekly events, exhibiting resourcefulness and initiative.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Marketing Assistant @ CBI China Bridge</h4>
+
+              <span>May 2022 — September 2022</span>
+
+              <p class="timeline-text">
+                <i>Utilized data analytics to enhance marketing strategies and content development.</i>
+              </p>
+              <p class="timeline-text">
+                •	Achieved significant improvement in the company's service design and marketing by 
+                conducting detailed data analysis and translating 43 technical publications into actionable insights.
+              </p>
+              <p class="timeline-text">
+                •	Enhanced article quality by leveraging data visualization tools to identify key 
+                trends and patterns, participating in client projects, and providing data-driven consulting, 
+                contributing to operational change and decision-making processes.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Youtube Channel Assistant @ Youtube Partner Program</h4>
+
+              <span>September 2020 — September 2022</span>
+
+              <p class="timeline-text">
+                <i>Elevate viewer engagement and revenue through targeted data analytics.</i>
+              </p>
+              <p class="timeline-text">
+                •	Optimized content and channel performance using Power BI, boosting viewer 
+                engagement and channel efficiency.
+              </p>
+              <p class="timeline-text">
+                •	Achieved significant growth in digital content, generating 8.1M views and increasing 
+                subscribers from zero to 7K in a year through data-driven optimization.
+              </p>
+              <p class="timeline-text">
+                •	Strategically analyzed and enhanced online marketing efforts through strategic 
+                data analysis, collaborating with Facebook Streamers to drive monetization and brand growth.
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="100">- 2 years</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Tableau</h5>
+                <data value="70">- 2 years</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Power BI</h5>
+                <data value="70">- 1 years</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Advanced Excel</h5>
+                <data value="50">- 3 years</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">R</h5>
+                <data value="80">- 2 years</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <data value="50">- 1 years</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="70">- 2 years</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Javascript</h5>
+                <data value="100">- 1 years</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>
+
+            </li>
+
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Software Design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>App Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Augmented Reality</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Miscellaneous</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Software Design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>App Development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Augmented Reality</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Miscellaneous</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="augmented reality">
+              <a href="https://github.com/miniquinox/AR-Museum">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/LinkedInPost.png" alt="armuseum" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Augmented Reality Museum</h3>
+
+                <p class="project-category">Augmented Reality</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="miscellaneous">
+              <a href="https://github.com/miniquinox/Meta-Challenge">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/MetaChallenge.png" alt="metachallenge" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Meta Ai Operator Challenge</h3>
+
+                <p class="project-category">Data Analytics</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="app development">
+              <a href="https://github.com/miniquinox/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PacificDentalApp.png" alt="pacificDental" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Pacific Dental Ai</h3>
+
+                <p class="project-category">App Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="miscellaneous">
+              <a href="https://github.com/miniquinox/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Tableau.png" alt="tableau" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">World Data Visualization</h3>
+
+                <p class="project-category">Data Analytics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="app development">
+              <a href="https://github.com/miniquinox/OptionsAi">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/stockapp.png" alt="armuseum" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">OptionsAi App</h3>
+
+                <p class="project-category">App Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="app development">
+              <a href="https://miniquinox.github.io/ExamAi/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ExamAi.png" alt="ExamAi" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Exam Ai</h3>
+
+                <p class="project-category">App Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="app development">
+              <a href="https://miniquinox.github.io/ExamAi/student_app.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ExamAiExam.png" alt="ExamAiExam" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Exam Creation Platform</h3>
+
+                <p class="project-category">App Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="miscellaneous">
+              <a href="https://github.com/miniquinox/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/INFORMS.png" alt="informs" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">INFORMS Twitter Word Cloud</h3>
+
+                <p class="project-category">Data Analytics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="software design">
+              <a href="https://github.com/miniquinox">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/github.png" alt="github" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">GitHub Portfolio</h3>
+
+                <p class="project-category">Software Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="software design">
+              <a href="https://github.com/miniquinox/Time-lapse_Automation_Backend">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://user-images.githubusercontent.com/63688331/111854413-67c3cd00-88dc-11eb-9c78-c9f91cbb4b71.jpg" alt="netflix" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">3D Printing Timelapse</h3>
+
+                <p class="project-category">Software Design</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="augmented reality">
+              <a href="https://3dmonkeysnft.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/3dmonkeys.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">NFT Automation</h3>
+
+                <p class="project-category">Augmented Reality</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="software design">
+              <a href="https://github.com/miniquinox/Netflix-Database-SQL">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ERD.png" alt="netflix" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Netflix SQL Database</h3>
+
+                <p class="project-category">Software Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="app development">
+              <a href="https://github.com/miniquinox/Dock_app-GUI">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/DockApp.png" alt="dockapp" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Windows Dock App</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Optimiz3D.png" alt="Optimiz3D" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Optimiz3D Presentation</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">May 29th, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Big Bang Business Competition</h3>
+
+                  <p class="blog-text">
+                    Optimiz3D is a startup that is revolutionizing the way people experience art. 
+                    Our Augmented Reality Art Adventure App transforms urban landscapes into 
+                    interactive galleries, allowing users to explore a mix of historical and 
+                    modern exhibits. <br><br>
+                    We recently participated in the Big Bang Business Competition, where we 
+                    presented our vision for the future of art and technology. Our innovative 
+                    approach to art curation and exploration caught the attention of the judges, 
+                    and we were awarded first place. <br><br>
+                    We are excited to continue developing our app and bringing art to life in 
+                    cities around the world. Follow us to stay updated on our progress! #ArtTechRevolution
+
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/PacificDentalApp.png" alt="Pacific Dental Ai" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Nür Project</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">April 22nd, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Pacific Dental Ai</h3>
+
+                  <p class="blog-text">
+                    Pacific Dental is creating a new AI platform that will revolutionize the way
+                    dentists and patients interact. The platform will use machine learning algorithms
+                    to analyze patient data and provide personalized treatment recommendations. 
+                    The platform will also allow patients to schedule appointments, view their treatment
+                    history, and communicate with their dentist. <br><br>
+                    The platform is designed to be user-friendly and intuitive. Patients can get Ai recommendations
+                    for their dental health and dentists can use the platform to manage their practice more efficiently.
+                    The platform is currently in development and is expected to launch in 2024. 
+
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Tableau.png" alt="Tableau" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">World Data Visualization</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">March 29th, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Tableau Data Viz</h3>
+
+                  <p class="blog-text">
+                    Our latest Tableau visualization maps global hunger levels, color-coding each country by severity. 
+                    The map highlights stark disparities. Sub-Saharan Africa and South Asia, shown in darker shades, 
+                    face high hunger levels due to conflict, climate change, and economic instability. 
+
+                    Conversely, North America and Europe, in lighter shades, have lower hunger levels, thanks to 
+                    political stability, strong economies, and technological access. <br><br>
+
+                    This map underscores the urgent need to address global food inequality and the power of 
+                    tools like Tableau in understanding and tackling these issues.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/ExamAi.png" alt="Exam Ai Platform" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Live Exam Ai Platform</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">February 20th, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Exam Ai</h3>
+
+                  <p class="blog-text">
+                    Exam Ai is a platform that allows teachers to create exams and students to take them. 
+                    The platform is designed to be user-friendly and intuitive, making it easy for teachers 
+                    to create exams and for students to take them. <br><br>
+                    The platform is designed to be flexible and customizable, allowing teachers to create 
+                    exams that meet their specific needs. Teachers can create multiple-choice, programming, 
+                    and short/long answer questions, as well as include images and videos in their exams. 
+                    Students can take exams on any device, including smartphones, tablets, and computers thanks to our Web App. 
+                    The platform is designed to be secure and reliable, ensuring that exams are delivered 
+                    accurately and on time. 
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/LinkedInPost.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">LinkedIn Company Post</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">January 17th, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Augmented Reality Museum</h3>
+
+                  <p class="blog-text">
+                  Dive into a world where your cityscape becomes a dynamic gallery with Optimiz3D's
+                  AR Art Adventure App, a visionary creation by former Meta Reality Labs engineers. 
+                  Transforming urban strolls into interactive art explorations, this app allows 
+                  artists to exhibit in the virtual realm and invites you to discover a mix of 
+                  historical and modern AR exhibits, from dinosaurs to CGI icons. <br><br>
+                  With custom 3D maps enhanced by Gaussian Splattering, every outing is an 
+                  art-filled adventure, encouraging outdoor engagement and redefining the art scene.
+                  Follow us to be a part of this art-tech revolution! #Innovation #AR #ArtInTheCity
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/INFORMS.png" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Practicum Project</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">October 7th, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">INFORMS Conference Analysis</h3>
+
+                  <p class="blog-text">
+                    As part of UC Davis MSBA program, I analyzed the INFORMS conference data
+                    to understand the trends in the field of Operations Research and Analytics.
+                    The analysis was perform by creating a word cloud of the twitter posts made 
+                    during the conference. The word cloud was created using Python and the
+                    tweepy library. <br><br>
+                    The analysis showed that the most popular topics at the conference were
+                    machine learning, optimization, and data visualization. The word cloud shown is   
+                    a visual representation of the most common words used in the tweets.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/photomeetup.jpeg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">3D Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">June 7th, 2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Atlanta Photography Meetup</h3>
+
+                  <p class="blog-text">
+                    I started my #Leadership path by getting 50+ photographers, artists, and models 
+                    together from all over #Atlanta, a city where I moved to just a couple of months 
+                    ago. It's time to diversify your free time into making something you will be 
+                    remembered for. #ThankYou everyone who joined us! ATL Street Meet 💪. 
+                    More events to come soon!
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/seaskate.png" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">3D Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">July 20th, 2020</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Building SeaSkate</h3>
+
+                  <p class="blog-text">
+                    This is the sketch of the surfboard with wheels I am working on. 
+                    Check out my previous posts for the actual product 3D printed! 
+                    Please Like and Comment so that companies can see this post and hopefully 
+                    I can find a job as a 3D Modeling and Rendering Engineer or as Product Designer!<br><br>
+                    What do you guys think of this Street Surfboard? Would you give it a try?<br><br>
+                    #Startup2020 #3dmodeling #manufacturing #surfing #wheels #render #productdesign #patented
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <!-- <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101432.0521213768!2d-122.10626840991505!3d37.39570561140279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb645a9d05d3b%3A0x768dfb26dd7cc3a2!2sSunnyvale%2C%20CA!5e0!3m2!1sen!2sus!4v1709010914418!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section> -->
+
+        <div style="display: flex; justify-content: center;">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfTATVzpCaAcsurnoCTV_73lhJ8UJCMtdGaGPAqCexoGH9TVQ/viewform?embedded=true" width="1280" height="1207" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
